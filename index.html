@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Futebol Brasileiro</title>
+</head>
+<body>
+    <header>
+        <h1>Craques do Brasileirão</h1>
+    </header>
+    <main>
+        <section>
+        <input type="text" placeholder="Digite o nome do jogador" id="campo-pesquisa">
+        <button onclick="pesquisar()">Pesquisar</button>
+        <section>
+            <section class="resultados-pesquisa"
+            id="resultados-pesquisa"> 
+                <!-- <div class="item-resultado">
+                <h2>
+                    <a href="#" target="_blank">Giorgian De Arrascaeta</a>
+                </h2>
+                <p class="Descricao-meta">Giorgian De Arrascaeta é um dos maiores craques do futebol brasileiro atual. O meia uruguaio, com sua habilidade e visão de jogo, encanta a torcida do Flamengo a cada partida. Conhecido por seus passes precisos, dribles desconcertantes e gols importantíssimos, Arrascaeta se tornou um dos principais jogadores do time rubro-negro e um ídolo da nação.</p>
+                <a href="https://pt.wikipedia.org/wiki/Giorgian_De_Arrascaeta" target="_blank">Mais informações</a>
+                </div>
+
+                <div class="item-resultado">
+                    <h2>
+                        <a href="#" target="_blank">Rodrigo Garro</a>
+                    </h2>
+                    <p class="Descricao-meta">Rodrigo Garro é um talentoso meio-campista do Corinthians. Conhecido por sua visão de jogo e passes precisos, ele tem se destacado nas últimas temporadas...</p>
+                    <a href="https://pt.wikipedia.org/wiki/Rodrigo_Garro" target="_blank">Mais informações</a>
+                </div>
+                
+                <div class="item-resultado">
+                    <h2>
+                        <a href="#" target="_blank">Lucas Moura</a>
+                    </h2>
+                    <p class="Descricao-meta">Lucas Moura, ídolo do São Paulo, é conhecido por sua velocidade e habilidade nos dribles. Ele já conquistou diversos títulos e é um dos principais jogadores do tricolor paulista...</p>
+                    <a href="https://pt.wikipedia.org/wiki/Lucas_Moura" target="_blank">Mais informações</a>
+                </div>
+
+                <div class="item-resultado">
+                    <h2>
+                        <a href="#" target="_blank">Raphael Veiga</a>
+                    </h2>
+                    <p class="Descricao-meta">Raphael Veiga é um dos principais jogadores do Palmeiras, conhecido por seus gols de falta e habilidade com a bola. Sua visão de jogo e passes precisos são fundamentais para o sucesso do Verdão.</p>
+                    <a href="https://pt.wikipedia.org/wiki/Raphael_Veiga" target="_blank">Mais informações</a>
+                </div>
+                
+                <div class="item-resultado">
+                    <h2>
+                        <a href="#" target="_blank">German Cano</a>
+                    </h2>
+                    <p class="Descricao-meta">O argentino German Cano é o artilheiro do Fluminense e um dos maiores goleadores do Brasileirão. Sua força física e habilidade para marcar gols são suas principais características.</p>
+                    <a href="https://pt.wikipedia.org/wiki/Germ%C3%A1n_Cano" target="_blank">Mais informações</a>
+                </div>
+
+                <div class="item-resultado">
+                    <h2>
+                        <a href="#" target="_blank">Philippe Coutinho</a>
+                    </h2>
+                    <p class="Descricao-meta">Coutinho, com sua habilidade e visão de jogo, tem sido fundamental para o Vasco da Gama. Seus passes precisos e dribles encantam a torcida vascaína.</p>
+                    <a href="https://pt.wikipedia.org/wiki/Philippe_Coutinho" target="_blank">Mais informações</a>
+                </div>
+                
+                <div class="item-resultado">
+                    <h2>
+                        <a href="#" target="_blank">Luiz Henrique</a>
+                    </h2>
+                    <p class="Descricao-meta">Luiz Henrique, o jovem atacante do Botafogo, tem se destacado pela sua velocidade e habilidade nos dribles. É uma das grandes promessas do futebol brasileiro.</p>
+                    <a href="https://pt.wikipedia.org/wiki/Luiz_Henrique_Andr%C3%A9_Rosa_da_Silva" target="_blank">Mais informações</a>
+                </div>
+
+                <div class="item-resultado">
+                    <h2>
+                        <a href="#" target="_blank">Rafael Borré</a>
+                    </h2>
+                    <p class="Descricao-meta">O centroavante colombiano Borré é um dos destaques do Internacional. Sua força física e habilidade para finalizar as jogadas o tornam um artilheiro nato.</p>
+                    <a href="https://pt.wikipedia.org/wiki/Rafael_Santos_Borr%C3%A9" target="_blank">Mais informações</a>
+                </div>
+                
+                <div class="item-resultado">
+                    <h2>
+                        <a href="#" target="_blank">Franco Cristaldo</a>
+                    </h2>
+                    <p class="Descricao-meta">Cristaldo é um atacante argentino que se destacou no Grêmio. Sua velocidade e habilidade nos dribles fazem dele uma peça fundamental no ataque tricolor.</p>
+                    <a href="https://pt.wikipedia.org/wiki/Franco_Cristaldo" target="_blank">Mais informações</a>
+                </div>
+
+                <div class="item-resultado">
+                    <h2>
+                        <a href="#" target="_blank">Martin Lucero</a>
+                    </h2>
+                    <p class="Descricao-meta">Lucero é um atacante argentino que se destacou no Fortaleza. Sua habilidade para marcar gols e sua força física fazem dele um dos principais jogadores do Leão.</p>
+                    <a href="https://pt.wikipedia.org/wiki/Juan_Mart%C3%ADn_Lucero" target="_blank">Mais informações</a>
+                </div>
+
+                <div class="item-resultado">
+                    <h2>
+                        <a href="#" target="_blank">Everton Ribeiro</a>
+                    </h2>
+                    <p class="Descricao-meta">Everton Ribeiro é um dos principais jogadores do Bahia. Sua experiência e habilidade em distribuir o jogo são fundamentais para o Tricolor de Aço.</p>
+                    <a href="https://pt.wikipedia.org/wiki/%C3%89verton_Ribeiro" target="_blank">Mais informações</a>
+                </div>
+                
+                <div class="item-resultado">
+                    <h2>
+                        <a href="#" target="_blank">Paulinho</a>
+                    </h2>
+                    <p class="Descricao-meta">Paulo Henrique Sampaio Filho, mais conhecido como Paulinho, é um talentoso jogador de futebol brasileiro que se destaca pela sua velocidade e habilidade nos dribles.</p>
+                    <a href="https://pt.wikipedia.org/wiki/Paulinho_(futebolista,_2000)" target="_blank">Mais informações</a>
+                </div>
+                
+                <div class="item-resultado">
+                    <h2>
+                        <a href="#" target="_blank">Matheus Pereira</a>
+                    </h2>
+                    <p class="Descricao-meta">Matheus Pereira é um meia talentoso do Cruzeiro. Sua visão de jogo e passes precisos fazem dele um dos destaques da equipe celeste.</p>
+                    <a href="https://pt.wikipedia.org/wiki/Matheus_Pereira" target="_blank">Mais informações</a>
+                </div>
+
+                <div class="item-resultado">
+                    <h2>
+                        <a href="#" target="_blank">Gonzalo Mastriani</a>
+                    </h2>
+                    <p class="Descricao-meta">O atacante argentino Mastriani é um dos destaques do Athletico Paranaense. Conhecido por sua velocidade e habilidade nos dribles, ele tem se mostrado uma peça fundamental no ataque do Furacão. Sua chegada ao clube tem sido bastante comemorada pela torcida rubro-negra.</p>
+                    <a href="https://pt.wikipedia.org/wiki/Gonzalo_Mastriani" target="_blank">Mais informações</a>
+                </div>
+                 -->
+                </section>
+    </main>
+    <footer>
+        <p>2024 - Craques do Brasileirão. Todos os direitos reservados</p>
+        <p>Entre em contato pelo email: Henryzin@ftbl14.com.br</p>
+    </footer>
+    <script src="Dados.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
