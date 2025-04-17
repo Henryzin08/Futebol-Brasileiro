@@ -78,19 +78,6 @@ Quer ajudar a melhorar esse projeto? Todo mundo é bem-vindo! Basta criar um for
 
 
 
-**Observações:**
-
-
-
-* **Adaptado para um público mais jovem:** A linguagem utilizada é mais informal e divertida, buscando engajar o público adolescente.
-
-* **Foco na simplicidade:** A explicação é objetiva e fácil de entender, mesmo para quem está começando a programar.
-
-* **Chamada para a colaboração:** Incentiva a participação de outros desenvolvedores, tornando o projeto mais colaborativo e divertido.
-
-* **Uso de hashtags:** A inclusão de hashtags relevantes torna o projeto mais fácil de encontrar em plataformas como o GitHub.
-
-
 
 
 
